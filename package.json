@@ -1,0 +1,23 @@
+{
+  "name": "kwara-life",
+  "version": "1.0.0",
+  "description": "Kwara Life — free multiplayer browser life-sim set in Kwara State, Nigeria. Chat, jobs, needs, Paystack top-ups, saved progress.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5",
+    "cors": "^2.8.5",
+    "uuid": "^10.0.0",
+    "body-parser": "^1.20.3",
+    "bcryptjs": "^2.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["kwara", "life-sim", "nigeria", "browser-game", "multiplayer"],
+  "license": "MIT"
+}
